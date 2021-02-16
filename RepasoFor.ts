@@ -71,20 +71,6 @@ function isRainbow(colores: string[]){
 
 isRainbow(["rojo", "rosa", "verde", "morado", "gualda"])
 
-// 7. Ver si un array de nombres empieza por M
-function isM(nombres: string[]){
-    let count: number = 0
-
-    for (let i=0; i<nombres.length; i++){
-        if (nombres[i][0] == "M"){
-            count++
-        }
-    }
-    console.log(count == nombres.length);
-}
-
-isM(["Mariano", "Maria", "Marta"]);
-isM(["Alberto", "Maria", "Marta"]);
 
 // 8. Funcion suma de los caracteres de un array
 export function sumChar(palabras: string[]): number{
